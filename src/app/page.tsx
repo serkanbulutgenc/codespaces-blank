@@ -1,9 +1,11 @@
-import {Box, Typography} from '@mui/material'
+
+import MuiTypography from '@/components/MuiTypography'
+import { Container } from '@mui/material';
 
 export default function Home() {
   return (
-    <Box>
-      <Typography variant='h2'>This is test</Typography>
-    </Box>
+    <Container maxWidth='lg'>
+         <MuiTypography/>
+    </Container>
   );
 }
