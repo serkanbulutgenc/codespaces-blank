@@ -10,7 +10,8 @@
 //import MuiAutoCmplete from "@/components/MuiAutoComplete"
 //import MuiBox from "@/components/MuiBox"
 //import MuiStack from "@/components/MuiStack"
-import MuiGrid from "@/components/MuiGrid"
+//import MuiGrid from "@/components/MuiGrid"
+import MuiPaper from "@/components/MuiPaper"
 
 import { Container } from '@mui/material';
 
@@ -28,7 +29,8 @@ export default function Home() {
          {/* <MuiAutoCmplete/> */}
          {/* <MuiBox/> */}
          {/* <MuiStack/> */}
-         <MuiGrid/>
+         {/* <MuiGrid/> */}
+         <MuiPaper/>
     </Container>
     
   );
