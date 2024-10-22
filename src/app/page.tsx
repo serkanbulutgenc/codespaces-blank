@@ -8,7 +8,8 @@
 //import MuiSwitch from "@/components/MuiSwitch"
 //import MuiRating from "@/components/MuiRating"
 //import MuiAutoCmplete from "@/components/MuiAutoComplete"
-import MuiBox from "@/components/MuiBox"
+//import MuiBox from "@/components/MuiBox"
+import MuiStack from "@/components/MuiStack"
 
 import { Container } from '@mui/material';
 
@@ -24,7 +25,8 @@ export default function Home() {
          {/* <MuiSwitch/> */}
          {/* <MuiRating/> */}
          {/* <MuiAutoCmplete/> */}
-         <MuiBox/>
+         {/* <MuiBox/> */}
+         <MuiStack/>
     </Container>
     
   );
