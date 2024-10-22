@@ -4,7 +4,8 @@
 //import MuiTextField from "@/components/MuiTextField"
 //import MuiSelect from "@/components/MuiSelect"
 //import MuiRadioButton from "@/components/MuiRadioButton"
-import MuiCheckBox from "@/components/MuiCheckBox"
+//import MuiCheckBox from "@/components/MuiCheckBox"
+import MuiSwitch from "@/components/MuiSwitch"
 
 import { Container } from '@mui/material';
 
@@ -16,7 +17,8 @@ export default function Home() {
          {/* <MuiTextField/> */}
          {/* <MuiSelect/> */}
          {/* <MuiRadioButton/> */}
-         <MuiCheckBox/>
+         {/* <MuiCheckBox/> */}
+         <MuiSwitch/>
     </Container>
     
   );
