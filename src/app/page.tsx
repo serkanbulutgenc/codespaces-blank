@@ -2,7 +2,8 @@
 //import MuiTypography from '@/components/MuiTypography'
 //import MuiButton from '@/components/MuiButton'
 //import MuiTextField from "@/components/MuiTextField"
-import MuiSelect from "@/components/MuiSelect"
+//import MuiSelect from "@/components/MuiSelect"
+import MuiRadioButton from "@/components/MuiRadioButton"
 
 import { Container } from '@mui/material';
 
@@ -12,7 +13,8 @@ export default function Home() {
          {/*<MuiTypography/>*/}
          {/* <MuiButton/> */}
          {/* <MuiTextField/> */}
-         <MuiSelect/>
+         {/* <MuiSelect/> */}
+         <MuiRadioButton/>
     </Container>
     
   );
