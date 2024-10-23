@@ -11,7 +11,8 @@
 //import MuiBox from "@/components/MuiBox"
 //import MuiStack from "@/components/MuiStack"
 //import MuiGrid from "@/components/MuiGrid"
-import MuiPaper from "@/components/MuiPaper"
+/* import MuiPaper from "@/components/MuiPaper" */
+import MuiCard from "@/components/MuiCard"
 
 import { Container } from '@mui/material';
 
@@ -30,7 +31,8 @@ export default function Home() {
          {/* <MuiBox/> */}
          {/* <MuiStack/> */}
          {/* <MuiGrid/> */}
-         <MuiPaper/>
+         {/* <MuiPaper/> */}
+         <MuiCard/>         
     </Container>
     
   );
