@@ -12,7 +12,8 @@
 //import MuiStack from "@/components/MuiStack"
 //import MuiGrid from "@/components/MuiGrid"
 /* import MuiPaper from "@/components/MuiPaper" */
-import MuiCard from "@/components/MuiCard"
+//import MuiCard from "@/components/MuiCard"
+import MuiAccordion from "@/components/MuiAccordion"
 
 import { Container } from '@mui/material';
 
@@ -32,7 +33,8 @@ export default function Home() {
          {/* <MuiStack/> */}
          {/* <MuiGrid/> */}
          {/* <MuiPaper/> */}
-         <MuiCard/>         
+         {/* <MuiCard/> */}         
+         <MuiAccordion/>
     </Container>
     
   );
