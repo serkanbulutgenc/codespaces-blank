@@ -1,4 +1,3 @@
-
 //import MuiTypography from '@/components/MuiTypography'
 //import MuiButton from '@/components/MuiButton'
 //import MuiTextField from "@/components/MuiTextField"
@@ -23,7 +22,8 @@
 //import MuiBottomNavigation from "@/components/MuiBottomNavigation"
 //import MuiAvatar from "@/components/MuiAvatar"
 //import MuiBadge from "@/components/MuiBadge"
-import MuiList from "@/components/MuiList"
+//import MuiList from "@/components/MuiList"
+import MuiChip from "@/components/MuiChip"
 
 import { Container } from '@mui/material';
 
@@ -54,7 +54,8 @@ export default function Home() {
          {/* <MuiBottomNavigation/> */}
          {/* <MuiAvatar/> */}
          {/* <MuiBadge/> */}
-         <MuiList/>
+         {/* <MuiList/> */}
+         <MuiChip/>
     </Container>
     
   );
