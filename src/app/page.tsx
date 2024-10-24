@@ -20,7 +20,8 @@
 //import MuiBreadcrumb from "@/components/MuiBreadcrumb"
 //import MuiDrawer from "@/components/MuiDrawer"
 //import MuiSpeedDial from "@/components/MuiSpeedDial"
-import MuiBottomNavigation from "@/components/MuiBottomNavigation"
+//import MuiBottomNavigation from "@/components/MuiBottomNavigation"
+import MuiAvatar from "@/components/MuiAvatar"
 
 import { Container } from '@mui/material';
 
@@ -48,7 +49,8 @@ export default function Home() {
          {/* <MuiBreadcrumb/> */}
          {/* <MuiDrawer/> */}
          {/* <MuiSpeedDial/> */}
-         <MuiBottomNavigation/>
+         {/* <MuiBottomNavigation/> */}
+         <MuiAvatar/>
     </Container>
     
   );
