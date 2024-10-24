@@ -21,7 +21,8 @@
 //import MuiDrawer from "@/components/MuiDrawer"
 //import MuiSpeedDial from "@/components/MuiSpeedDial"
 //import MuiBottomNavigation from "@/components/MuiBottomNavigation"
-import MuiAvatar from "@/components/MuiAvatar"
+//import MuiAvatar from "@/components/MuiAvatar"
+import MuiBadge from "@/components/MuiBadge"
 
 import { Container } from '@mui/material';
 
@@ -50,7 +51,8 @@ export default function Home() {
          {/* <MuiDrawer/> */}
          {/* <MuiSpeedDial/> */}
          {/* <MuiBottomNavigation/> */}
-         <MuiAvatar/>
+         {/* <MuiAvatar/> */}
+         <MuiBadge/>
     </Container>
     
   );
