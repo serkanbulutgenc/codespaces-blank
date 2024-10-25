@@ -26,7 +26,8 @@
 //import MuiChip from "@/components/MuiChip"
 //import MuiTooltip from "@/components/MuiTooltip"
 //import MuiTable from "@/components/MuiTable"
-import MuiAlert from "@/components/MuiAlert"
+//import MuiAlert from "@/components/MuiAlert"
+import MuiSnackbar from "@/components/MuiSnackbar"
 
 import { Container } from '@mui/material';
 
@@ -61,7 +62,8 @@ export default function Home() {
          {/* <MuiChip/> */}
          {/* <MuiTooltip/> */}
          {/* <MuiTable/> */}
-         <MuiAlert/>
+         {/* <MuiAlert/> */}
+         <MuiSnackbar/>
     </Container>
     
   );
