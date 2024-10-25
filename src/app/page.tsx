@@ -24,7 +24,8 @@
 //import MuiBadge from "@/components/MuiBadge"
 //import MuiList from "@/components/MuiList"
 //import MuiChip from "@/components/MuiChip"
-import MuiTooltip from "@/components/MuiTooltip"
+//import MuiTooltip from "@/components/MuiTooltip"
+import MuiTable from "@/components/MuiTable"
 
 import { Container } from '@mui/material';
 
@@ -57,7 +58,8 @@ export default function Home() {
          {/* <MuiBadge/> */}
          {/* <MuiList/> */}
          {/* <MuiChip/> */}
-         <MuiTooltip/>
+         {/* <MuiTooltip/> */}
+         <MuiTable/>
     </Container>
     
   );
