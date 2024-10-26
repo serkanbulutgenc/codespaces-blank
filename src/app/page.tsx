@@ -31,48 +31,51 @@
 //import MuiDialog from "@/components/MuiDialog"
 //import MuiProgress from "@/components/MuiProgress"
 //import MuiSkeleton from "@/components/MuiSkeleton"
-import MuiLoadingButton from "@/components/MuiLoadingButton"
+//import MuiLoadingButton from "@/components/MuiLoadingButton"
+
+import MuiDatetimePicker from "@/components/MuiDatetimePicker"
 
 import { Container } from '@mui/material';
 
 export default function Home() {
   return (
-    <Container maxWidth='lg' sx={{padding:5}}>
-         {/*<MuiTypography/>*/}
-         {/* <MuiButton/> */}
-         {/* <MuiTextField/> */}
-         {/* <MuiSelect/> */}
-         {/* <MuiRadioButton/> */}
-         {/* <MuiCheckBox/> */}
-         {/* <MuiSwitch/> */}
-         {/* <MuiRating/> */}
-         {/* <MuiAutoCmplete/> */}
-         {/* <MuiBox/> */}
-         {/* <MuiStack/> */}
-         {/* <MuiGrid/> */}
-         {/* <MuiPaper/> */}
-         {/* <MuiCard/> */}         
-         {/* <MuiAccordion/> */}
-         {/*<MuiImageList/>*/}
-         {/*<MuiNavBar/>*/}
-         {/*<MuiMenu/>*/}
-         {/* <MuiBreadcrumb/> */}
-         {/* <MuiDrawer/> */}
-         {/* <MuiSpeedDial/> */}
-         {/* <MuiBottomNavigation/> */}
-         {/* <MuiAvatar/> */}
-         {/* <MuiBadge/> */}
-         {/* <MuiList/> */}
-         {/* <MuiChip/> */}
-         {/* <MuiTooltip/> */}
-         {/* <MuiTable/> */}
-         {/* <MuiAlert/> */}
-         {/* <MuiSnackbar/> */}
-         {/* <MuiDialog/> */}
-         {/* <MuiProgress/> */}
-         {/* <MuiSkeleton/> */}
-         <MuiLoadingButton/>
-    </Container>
-    
+      <Container maxWidth='lg' sx={{ padding: 5 }}>
+        {/*<MuiTypography/>*/}
+        {/* <MuiButton/> */}
+        {/* <MuiTextField/> */}
+        {/* <MuiSelect/> */}
+        {/* <MuiRadioButton/> */}
+        {/* <MuiCheckBox/> */}
+        {/* <MuiSwitch/> */}
+        {/* <MuiRating/> */}
+        {/* <MuiAutoCmplete/> */}
+        {/* <MuiBox/> */}
+        {/* <MuiStack/> */}
+        {/* <MuiGrid/> */}
+        {/* <MuiPaper/> */}
+        {/* <MuiCard/> */}
+        {/* <MuiAccordion/> */}
+        {/*<MuiImageList/>*/}
+        {/*<MuiNavBar/>*/}
+        {/*<MuiMenu/>*/}
+        {/* <MuiBreadcrumb/> */}
+        {/* <MuiDrawer/> */}
+        {/* <MuiSpeedDial/> */}
+        {/* <MuiBottomNavigation/> */}
+        {/* <MuiAvatar/> */}
+        {/* <MuiBadge/> */}
+        {/* <MuiList/> */}
+        {/* <MuiChip/> */}
+        {/* <MuiTooltip/> */}
+        {/* <MuiTable/> */}
+        {/* <MuiAlert/> */}
+        {/* <MuiSnackbar/> */}
+        {/* <MuiDialog/> */}
+        {/* <MuiProgress/> */}
+        {/* <MuiSkeleton/> */}
+        {/* <MuiLoadingButton/> */}
+        <MuiDatetimePicker />
+      </Container>
+
   );
 }
