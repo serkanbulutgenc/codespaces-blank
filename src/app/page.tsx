@@ -35,7 +35,8 @@
 //import MuiDatetimePicker from "@/components/MuiDatetimePicker"
 //import MuiTab from "@/components/MuiTab"
 //import MuiTimeline from "@/components/MuiTimeline"
-import MuiMasonry from "@/components/MuiMasonry"
+//import MuiMasonry from "@/components/MuiMasonry"
+import MuiResponsiveness from "@/components/MuiResponsiveness"
 
 import { Container } from '@mui/material';
 
@@ -79,7 +80,8 @@ export default function Home() {
         {/* <MuiDatetimePicker /> */}
         {/* <MuiTab/> */}
         {/* <MuiTimeline/> */}
-        <MuiMasonry/>
+        {/* <MuiMasonry/> */}
+        <MuiResponsiveness/>
       </Container>
 
   );
