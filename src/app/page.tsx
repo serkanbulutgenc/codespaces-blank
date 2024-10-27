@@ -33,7 +33,8 @@
 //import MuiSkeleton from "@/components/MuiSkeleton"
 //import MuiLoadingButton from "@/components/MuiLoadingButton"
 
-import MuiDatetimePicker from "@/components/MuiDatetimePicker"
+//import MuiDatetimePicker from "@/components/MuiDatetimePicker"
+import MuiTab from "@/components/MuiTab"
 
 import { Container } from '@mui/material';
 
@@ -74,7 +75,8 @@ export default function Home() {
         {/* <MuiProgress/> */}
         {/* <MuiSkeleton/> */}
         {/* <MuiLoadingButton/> */}
-        <MuiDatetimePicker />
+        {/* <MuiDatetimePicker /> */}
+        <MuiTab/>
       </Container>
 
   );
